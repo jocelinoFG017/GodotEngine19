@@ -6,21 +6,27 @@ na plataforma Godot Engine v3.1 .
  
  
  <h1> PROJETOS </h1>
-  - Coin Dash
-  Descrição: 
+ 
+ 
+  <h1> Projeto 01 </h1>
+  - Nome:
+       Coin Dash
+  - Descrição: 
+      Consiste em jogo onde seu objetivo é pegar moedas sem bater nos obstaculos do jogo.
+  - Atualizações:
+      Foi adicionado mais itens ao hud e uma nova função para mudar a cor do personagem.
   
-  -  Consiste em jogo onde seu objetivo é pegar moedas sem bater nos obstaculos do jogo.
+  <h1> Projeto 02 </h1> Em andamento
   
+  <h1> Sobre </h1>
   
-  
-  Vale ressaltar que estes projetos são de um livro chamado Godot Engine Projects....
-  Então eles podem ser encontrados neste github -> 
+  Vale ressaltar que estes projetos são de um livro chamado Godot Engine Game Development Projects do autor Chris Bradfield.
+  Então eles podem ser encontrados neste link -> https://github.com/PacktPublishing/Godot-Game-Engine-Projects
   
   Porém os projetos deste repositório contem o básico dos exemplos do livro.
-  Estes exemplos são atualizados e modificados constantemente por mim(@jocelinoFG017).
   
-  Então se você está a procura dos exemplos feitos certinhos vá no link colocado acima.
-  
+  Os exemplos do meu github são atualizados e modificados constantemente por mim(@jocelinoFG017). (a cada 3|4 meses).
+    
   Aqui você você encontrará algo a mais nestes projetos, você verá atualizações feitas por mim
   de algo que o básico deixou a desejar.
   
