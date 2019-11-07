@@ -1,6 +1,5 @@
 # GodotEngine19
-Olá seja bem-vindo ao meu repositório, aqui você irá encontrar jogos(Projetos) feitos por mim(@jocelinoFG017)
-na plataforma Godot Engine v3.1 .
+Olá seja bem-vindo, aqui você irá encontrar jogos(Projetos) feitos por mim(@jocelinoFG017)na plataforma Godot Engine v3.1 .
 
  - Fique a vontade para fazer o download de cada um desses jogos se assim você quiser.
  
@@ -9,12 +8,11 @@ na plataforma Godot Engine v3.1 .
  
  
   <h1> Projeto 01 </h1>
-  - Nome:
-       Coin Dash
-  - Descrição: 
-      Consiste em jogo onde seu objetivo é pegar moedas sem bater nos obstaculos do jogo.
-  - Atualizações:
-      Foi adicionado mais itens ao hud e uma nova função para mudar a cor do personagem.
+  - Nome:Coin Dash
+       
+  - Descrição:Consiste em jogo onde seu objetivo é pegar moedas sem bater nos obstaculos do jogo.
+      
+  - Atualizações: Foi adicionado mais itens ao hud e uma nova função para mudar a cor do personagem.
   
   <h1> Projeto 02 </h1> Em andamento
   
@@ -27,7 +25,7 @@ na plataforma Godot Engine v3.1 .
   
   Os exemplos do meu github são atualizados e modificados constantemente por mim(@jocelinoFG017). (a cada 3|4 meses).
     
-  Aqui você você encontrará algo a mais nestes projetos, você verá atualizações feitas por mim
+  Aqui você encontrará algo a mais nestes projetos, você verá atualizações feitas por mim
   de algo que o básico deixou a desejar.
   
   OBS: Enfim se gostou destes projetos não esquece de me seguir no github(), favoritar e fazer perguntas se for o caso.
