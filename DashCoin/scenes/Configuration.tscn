@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scripts/Configuration.gd" type="Script" id=1]
+
+[node name="Configuration" type="Node"]
+script = ExtResource( 1 )
+
+[node name="Button" type="Button" parent="."]
+margin_left = 112.888
+margin_top = 157.303
+margin_right = 320.888
+margin_bottom = 177.303
+text = "Sound Disable"
+
+[node name="Button2" type="Button" parent="."]
+margin_left = 122.141
+margin_top = 233.178
+margin_right = 330.141
+margin_bottom = 253.178
+text = "Sound enable"
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

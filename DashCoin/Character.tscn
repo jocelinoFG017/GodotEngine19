@@ -1,0 +1,69 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://scripts/Character.gd" type="Script" id=1]
+[ext_resource path="res://scenes/Player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://assets/Kenney Bold.ttf" type="DynamicFontData" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=3]
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=4]
+font_data = ExtResource( 3 )
+
+[node name="Character" type="Node"]
+script = ExtResource( 1 )
+
+[node name="Player" parent="." instance=ExtResource( 2 )]
+position = Vector2( 113.793, 221.432 )
+
+[node name="Choice" type="Label" parent="."]
+margin_left = 96.1022
+margin_top = 59.7393
+margin_right = 408.102
+margin_bottom = 83.7393
+custom_fonts/font = SubResource( 1 )
+text = "Choose Your Character"
+
+[node name="PlayerOne" type="Button" parent="."]
+margin_left = 194.311
+margin_top = 184.904
+margin_right = 286.311
+margin_bottom = 214.904
+mouse_default_cursor_shape = 2
+custom_fonts/font = SubResource( 2 )
+text = "green"
+
+[node name="PlayerTwo" type="Button" parent="."]
+margin_left = 198.794
+margin_top = 237.613
+margin_right = 274.794
+margin_bottom = 267.613
+mouse_default_cursor_shape = 2
+custom_fonts/font = SubResource( 3 )
+text = "blue"
+
+[node name="BackButton" type="Button" parent="."]
+margin_left = 13.0636
+margin_top = 11.0538
+margin_right = 89.0636
+margin_bottom = 41.0538
+mouse_default_cursor_shape = 2
+custom_fonts/font = SubResource( 4 )
+text = "Back"
+
+[node name="Label" type="Label" parent="."]
+margin_left = 174.852
+margin_top = 699.406
+margin_right = 214.852
+margin_bottom = 713.406
+text = "#BUG 003"
+[connection signal="color" from="Player" to="Player" method="_on_Player_color"]
+[connection signal="pressed" from="PlayerOne" to="Player" method="_on_PlayerOne_pressed"]
+[connection signal="pressed" from="PlayerTwo" to="Player" method="_on_PlayerTwo_pressed"]
+[connection signal="pressed" from="BackButton" to="." method="_on_BackButton_pressed"]

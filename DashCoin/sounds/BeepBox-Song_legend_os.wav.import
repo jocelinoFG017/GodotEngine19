@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/BeepBox-Song_legend_os.wav-52bef4df6e59f3d13245e91f03a1aedb.sample"
+
+[deps]
+
+source_file="res://sounds/BeepBox-Song_legend_os.wav"
+dest_files=[ "res://.import/BeepBox-Song_legend_os.wav-52bef4df6e59f3d13245e91f03a1aedb.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=true
+compress/mode=0

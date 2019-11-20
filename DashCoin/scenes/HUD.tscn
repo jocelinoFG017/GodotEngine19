@@ -1,0 +1,180 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://scripts/HUD.gd" type="Script" id=1]
+[ext_resource path="res://scenes/Cactus.tscn" type="PackedScene" id=2]
+[ext_resource path="res://assets/Kenney Bold.ttf" type="DynamicFontData" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+size = 48
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 20
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 20
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 20
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=5]
+font_data = ExtResource( 3 )
+
+[node name="HUD" type="CanvasLayer"]
+script = ExtResource( 1 )
+
+[node name="Cactus" parent="." instance=ExtResource( 2 )]
+position = Vector2( 413.011, 235.145 )
+
+[node name="MessageLabel" type="Label" parent="."]
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = 2.05456
+margin_top = -139.94
+margin_right = 2.05457
+margin_bottom = -67.9401
+custom_fonts/font = SubResource( 1 )
+text = "coin dash !"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+anchor_right = 1.0
+margin_left = 1.3
+margin_right = 1.29999
+margin_bottom = 157.0
+custom_constants/margin_right = 10
+custom_constants/margin_top = 10
+custom_constants/margin_left = 10
+
+[node name="ScoreLabel" type="Label" parent="MarginContainer"]
+margin_left = 10.0
+margin_top = 10.0
+margin_right = 470.0
+margin_bottom = 157.0
+custom_fonts/font = SubResource( 1 )
+text = "0
+"
+valign = 1
+uppercase = true
+
+[node name="TimeLabel" type="Label" parent="MarginContainer"]
+margin_left = 10.0
+margin_top = 10.0
+margin_right = 470.0
+margin_bottom = 157.0
+custom_fonts/font = SubResource( 1 )
+text = "0
+"
+align = 2
+valign = 1
+uppercase = true
+
+[node name="MessageTimer" type="Timer" parent="."]
+wait_time = 2.0
+one_shot = true
+
+[node name="StartButton" type="Button" parent="."]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -54.5514
+margin_top = 327.178
+margin_right = 57.4485
+margin_bottom = 373.178
+mouse_default_cursor_shape = 2
+custom_fonts/font = SubResource( 2 )
+custom_colors/font_color_hover = Color( 0.113725, 0.32549, 0.192157, 1 )
+text = "Start"
+flat = true
+
+[node name="CreditsButton" type="Button" parent="."]
+margin_left = 174.73
+margin_top = 511.394
+margin_right = 316.73
+margin_bottom = 553.394
+mouse_default_cursor_shape = 2
+custom_fonts/font = SubResource( 3 )
+custom_colors/font_color_hover = Color( 0.113725, 0.32549, 0.192157, 1 )
+text = "Credits"
+flat = true
+
+[node name="Exitbutton" type="Button" parent="."]
+margin_left = 202.833
+margin_top = 570.592
+margin_right = 284.833
+margin_bottom = 612.592
+mouse_default_cursor_shape = 2
+custom_fonts/font = SubResource( 3 )
+custom_colors/font_color_hover = Color( 0.803922, 0.14902, 0.14902, 1 )
+text = "Exit"
+flat = true
+
+[node name="CharacterButton" type="Button" parent="."]
+margin_left = 143.272
+margin_top = 391.126
+margin_right = 335.272
+margin_bottom = 433.126
+mouse_default_cursor_shape = 2
+custom_fonts/font = SubResource( 3 )
+custom_colors/font_color_hover = Color( 0.113725, 0.32549, 0.192157, 1 )
+text = "Character"
+flat = true
+
+[node name="PauseButton" type="Button" parent="."]
+margin_left = 173.179
+margin_top = 35.3518
+margin_right = 285.179
+margin_bottom = 71.3518
+mouse_default_cursor_shape = 2
+custom_fonts/font = SubResource( 4 )
+custom_colors/font_color_hover = Color( 0.113725, 0.32549, 0.192157, 1 )
+text = "Pause"
+flat = true
+
+[node name="BackButton" type="Button" parent="."]
+margin_left = 5.34285
+margin_top = 678.674
+margin_right = 97.3429
+margin_bottom = 708.674
+mouse_default_cursor_shape = 2
+custom_fonts/font = SubResource( 4 )
+custom_colors/font_color_hover = Color( 0.113725, 0.32549, 0.192157, 1 )
+text = "BACK"
+flat = true
+
+[node name="SettingsButton" type="Button" parent="."]
+margin_left = 158.327
+margin_top = 455.366
+margin_right = 320.327
+margin_bottom = 491.366
+mouse_default_cursor_shape = 2
+custom_fonts/font = SubResource( 4 )
+custom_colors/font_color_hover = Color( 0.113725, 0.32549, 0.192157, 1 )
+text = "Settings"
+flat = true
+
+[node name="ContinueButton" type="Button" parent="."]
+visible = false
+margin_left = 185.935
+margin_top = 37.8192
+margin_right = 317.935
+margin_bottom = 67.8192
+mouse_default_cursor_shape = 2
+custom_fonts/font = SubResource( 5 )
+custom_colors/font_color_hover = Color( 0.113725, 0.32549, 0.192157, 1 )
+text = "Continue"
+flat = true
+[connection signal="timeout" from="MessageTimer" to="." method="_on_MessageTimer_timeout"]
+[connection signal="pressed" from="StartButton" to="." method="_on_StartButton_pressed"]
+[connection signal="pressed" from="CreditsButton" to="." method="_on_CreditsButton_pressed"]
+[connection signal="pressed" from="Exitbutton" to="." method="_on_Exitbutton_pressed"]
+[connection signal="pressed" from="CharacterButton" to="." method="_on_CharacterButton_pressed"]
+[connection signal="pressed" from="PauseButton" to="." method="_on_PauseButton_pressed"]
+[connection signal="pressed" from="BackButton" to="." method="_on_BackButton_pressed"]
+[connection signal="pressed" from="SettingsButton" to="." method="_on_SettingsButton_pressed"]
+[connection signal="pressed" from="ContinueButton" to="." method="_on_ContinueButton_pressed"]
