@@ -12,7 +12,9 @@ Olá seja bem-vindo, aqui você irá encontrar jogos(Projetos) feitos por mim(@j
        
   - Descrição:Consiste em jogo onde seu objetivo é pegar moedas sem bater nos obstaculos do jogo.
       
-  - Atualizações: Foi adicionado mais itens ao hud e uma nova função para mudar a cor do personagem.
+  - Atualizações: 
+      - Foi adicionado mais itens ao hud e uma nova função para mudar a cor do personagem(Não funcional ainda).
+      - Foi adicionado uma tela de configuração ao jogo para o usuario poder aumentar e diminuir o volume da música do jogo(Não     funcional ainda).
   
   <h1> Projeto 02 </h1> Em andamento
   
