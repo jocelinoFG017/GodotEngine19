@@ -1,37 +1,39 @@
 # GodotEngine19
-Olá seja bem-vindo, aqui você irá encontrar jogos(Projetos) feitos por mim(@jocelinoFG017)na plataforma Godot Engine v3.1 .
+### Olá, seja bem-vindo(a).
+Este repositório contém os games construídos por @jocelinoFG017 na plataforma Godot Engine V3.+ .
 
- - Fique a vontade para fazer o download de cada um desses jogos se assim você quiser.
- 
- 
- <h1> PROJETOS </h1>
- 
- 
-  <h1> Projeto 01 </h1>
-  - Nome:Coin Dash
-       
-  - Descrição:Consiste em jogo onde seu objetivo é pegar moedas sem bater nos obstaculos do jogo.
-      
-  - Atualizações: 
-      - Foi adicionado mais itens ao hud e uma nova função para mudar a cor do personagem(Não funcional ainda).
-      - Foi adicionado uma tela de configuração ao jogo para o usuario poder aumentar e diminuir o volume da música do jogo(Não     funcional ainda).
-  
-  <h1> Projeto 02 </h1> Em andamento
-  
-  <h1> Sobre </h1>
-  
-  Vale ressaltar que estes projetos são de um livro chamado Godot Engine Game Development Projects do autor Chris Bradfield.
-  Então eles podem ser encontrados neste link -> https://github.com/PacktPublishing/Godot-Game-Engine-Projects
-  
-  Porém os projetos deste repositório contem o básico dos exemplos do livro.
-  
-  Os exemplos do meu github são atualizados e modificados constantemente por mim(@jocelinoFG017). (a cada 3|4 meses).
-    
-  Aqui você encontrará algo a mais nestes projetos, você verá atualizações feitas por mim
-  de algo que o básico deixou a desejar.
-  
-  OBS: Enfim se gostou destes projetos não esquece de me seguir no github(), favoritar e fazer perguntas se for o caso.
-  Meu perfil : https://github.com/jocelinoFG017/
-  
+ - Uma breve descrição de cada jogo pode ser vista abaixo.
 
+ - Este repositório está organizado de maneira que cada jogo possa ser encontrado sem dificuldade.
 
+ - Para ter acesso aos jogos basta fazer o download do projeto ou baixar somente os arquivos executáveis contidos na pasta <b>Executáveis</b>.
+
+ - Para saber mais detalhes de cada projeto leia o arquivo <b>README.md</b> na pasta de cada game.
+
+ - Estes jogos são totalmente baseados no livro <b>Godot Engine Game Development Projects</b> do autor <b>Chris Bradfield</b>. Porém estes jogos possuem algumas coisas adicionais, não adicionadas nos exemplos descritos no livro (Disponível na Amazon e no Kindle).
+
+ - Se gostar deste conteúdo me segue aqui no Github e adicione uma estrela ao repositório.
+
+# PROJETOS
+
+## Projeto 01
+
+  - Nome: Coin Dash
+
+  - Status: Incompleto
+
+  - Descrição: Consiste em jogo onde seu objetivo é pegar moedas sem bater nos obstáculos do jogo.
+
+## Projeto 02
+ - Nome: nameHere
+
+ - Status: Incompleto
+
+ - Descrição: will be added in few days
+
+## Projeto 03
+  - Nome: nameHere
+
+  - Status: Incompleto
+
+  - Descrição: will be added in few days

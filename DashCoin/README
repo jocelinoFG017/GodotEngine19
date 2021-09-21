@@ -1,1 +1,10 @@
-A versao para PC está na pasta Desktop
+# Coin Dash
+
+ - Status: Incompleto
+
+ - Descrição: Consiste em um jogo onde seu objetivo é pegar moedas sem bater nos obstáculos.
+
+ - Atualizações:
+     - Foi adicionado mais itens ao HUD e uma nova função para mudar a cor do personagem (não funcional ainda).
+
+     - Foi adicionado uma tela de configuração ao jogo para o usuário poder aumentar e diminuir o volume da música do jogo (não funcional ainda).
