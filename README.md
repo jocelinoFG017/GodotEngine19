@@ -5,11 +5,11 @@ Este repositório contém os games construídos por @jocelinoFG017 na plataforma
 
  - Estes jogos são totalmente baseados no livro <b>Godot Engine Game Development Projects</b> do autor <b>Chris Bradfield</b>. Porém estes jogos possuem algumas coisas adicionais, não adicionadas nos exemplos descritos no livro (Disponível na Amazon e no Kindle).
 
- - Se gostar deste conteúdo me segue aqui no Github e adicione uma estrela ao repositório.
+ - Se gostar deste conteúdo me segue aqui no Github e adicione uma :star: ao repositório.
 
 # PROJETOS
 
-## Projeto 01 - Coin Dash
+## Projeto 01 - Coin Dash :yellow_circle:
 
   - Status: Incompleto
 
